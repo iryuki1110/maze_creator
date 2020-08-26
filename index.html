@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>迷路クリエイター</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <h1>迷路</h1>
+        <p>何　×　何の迷路を生成しますか?(5以上101以下の奇数を入力してください。)</p>
+        <form name="form_004">
+            <input type="number" name="textBox_001" style="width:200px;height:30px" value=11>
+            <input type="button" value="生成する" onclick="clickButton_002()">
+        </form>
+        </div>
+        <div id="canvas_wrapper">
+            <canvas id="main"></canvas>
+        </div>
+        <script src="main.js"></script>
+        <p>穴掘り法で迷路を生成</p>
+        <p>幅優先探索でなるべく遠い場所にゴールを設置</p>
+    </body>
+</html>
